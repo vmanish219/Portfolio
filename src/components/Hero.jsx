@@ -1,17 +1,14 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+import Typewrite from "./Typewrite";
+
 
 const Hero= ()=>{
     return(
         <div className="hero-section">
-        <Typewriter
-            onInit={(typewriter)=>{
-                typewriter
-                .typeString("Hi, Iam Manish \n Full Stack Developer" )
-                .pauseFor(1000)
-                .start();
-            }}
-         />
+        <div className="hero-text">
+        <h1>Hi, Iam Manish</h1>
+        <Typewrite  string="Full Stack Developer" />
+        </div>
         </div>
     )
 }

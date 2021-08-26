@@ -15,7 +15,6 @@
   align-items: center;
   max-width: 80%;
   margin: 0 auto;
-
 }
 
 .navbar h1{
@@ -46,8 +45,15 @@
   font-weight:800;
   font-size:40px;
   text-align: center;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  min-height:90vh;
+  /* justify-content:center; */
+  /* align-items:center; */
+  min-height:100vh;
 }
+
+.hero-text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
