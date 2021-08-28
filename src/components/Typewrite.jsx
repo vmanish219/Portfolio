@@ -4,9 +4,11 @@ const Typewrite=(props)=>{
     return(<Typewriter
             onInit={(typewriter)=>{
                 typewriter
-                .typeString(props.string )
+                .typeString(props.string1 )
                 .pauseFor(1000)
-                .start();
+                .start()
+                .deleteAll()
+                .typeString(props.string2)
             }}
          />)
 }

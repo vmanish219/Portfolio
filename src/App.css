@@ -57,3 +57,36 @@
   transform: translate(-50%,-50%);
 }
 
+.about{
+  max-width: 80%;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #D8DDFF;
+  margin-bottom: 20px;
+}
+
+.about h1{
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+.about-content{
+  display: flex;
+}
+.about-text{
+  margin-left: 20px;
+}
+
+.skills h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.progress{
+  width: 60%;
+}
+
+.projects h1{
+  text-align: center;
+}
