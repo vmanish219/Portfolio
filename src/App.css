@@ -87,6 +87,22 @@
   width: 60%;
 }
 
-.projects h1{
+.projects{
+  max-width: 80%;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #D8DDFF;
+  margin-bottom: 20px;
+}
+
+.contact{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,132,173,1) 100%);
+  background-size: cover; 
+  color: #ffffff;
+  max-width: 100%;
+  padding: 20px;
   text-align: center;
 }
